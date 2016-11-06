@@ -12,7 +12,7 @@ var Search = require('../components/Search');
 var Saved = require('../components/Saved');
 
 
-module.exports = {
+module.exports = (
 
 	<Route path='/' component={Main}>
 
@@ -22,4 +22,4 @@ module.exports = {
 		<IndexRoute component={Search} />
 
 	</Route>
-}
+);
